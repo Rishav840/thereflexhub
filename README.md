@@ -19,7 +19,7 @@
 - TypeScript (strict) — every game engine is dependency-free vanilla TS
 - Self-hosted Space Grotesk font, `@astrojs/sitemap` for SEO
 
-## Architecture
+## Architecture 
 
 The codebase separates game logic from presentation:
 
