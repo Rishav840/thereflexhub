@@ -8,11 +8,11 @@ import { webAppSchema, breadcrumbSchema, type Faq } from '../data/seo';
 
 const title = 'Spacebar Counter - Test Press Speed | The Reflex Hub';
 const description =
-  'Count your spacebar presses per second with the free spacebar counter. Play 1 to 100 second modes, beat the 6.5 press average, and set a new record.';
+  'Count your spacebar presses per second with the free online spacebar counter. Play 1 to 100 second modes, beat the 6.5 average, and set a new record.';
 const path = '/spacebar-counter';
 
 const schema = [
-  webAppSchema('Spacebar Counter', path, 'Free spacebar counter and spacebar test with 1, 5, 10, 30, 60, and 100 second modes.'),
+  webAppSchema('Spacebar Counter', path, 'Free online spacebar counter and spacebar test with 1, 5, 10, 30, 60, and 100 second modes.'),
   breadcrumbSchema([
     { name: 'Home', path: '/' },
     { name: 'Spacebar Counter', path },
@@ -29,8 +29,8 @@ const faqs: Faq[] = [
     a: 'On a 10 second run, most people land between 5 and 7 presses per second, and the commonly cited average is about 6.5. Anything above 8 presses per second is faster than the typical player, and sustained speeds of 10 or more put you in elite territory, usually achieved with two-thumb technique or a very light switch under the spacebar. Scores drop noticeably on longer runs because the thumb fatigues quickly, so compare your results within the same duration rather than across different modes.',
   },
   {
-    q: 'Why do people practice spacebar speed?',
-    a: 'Mostly for games. Minecraft players spam the spacebar while bridging and jumping in PvP, osu players who bind taps to keys need rapid, rhythmic presses, and speedrunners in many platformers buffer jumps frame by frame. Beyond gaming, the spacebar test is a popular reflex challenge on its own: it is easy to understand, takes ten seconds, and produces a score you can immediately try to beat. Some typists also use it as a warmup, since fast controlled thumb presses wake up the same muscles used for the space key while typing.',
+    q: 'Is the spacebar counter unblocked at school or work?',
+    a: 'Yes. This spacebar counter unblocked experience is a lightweight static page that runs entirely in your browser: no downloads, no plugins, no account, and no connection to any game server. Most school and office content filters treat it like an ordinary web page rather than a game, so you can usually play the spacebar counter online even on restricted networks where game portals are blocked. Your scores and personal bests are saved locally in your own browser, never on our servers. If an especially strict filter does block the site, that is a network policy only its administrator can change.',
   },
   {
     q: 'Does keyboard type affect spacebar speed?',
@@ -45,8 +45,8 @@ const faqs: Faq[] = [
     a: 'Yes. This spacebar counter offers 1, 5, 10, 30, 60, and 100 second modes, and each one keeps its own separate personal best in your browser. The 10 second mode is the standard benchmark most averages are based on, so start there. Short 1 and 5 second sprints measure pure burst speed, while the 30, 60, and 100 second runs test endurance and pacing. You can also link a friend directly to a specific mode: the duration you pick is stored in the page address.',
   },
   {
-    q: 'What is the spacebar speed world record?',
-    a: 'There is no official governing body for spacebar records, so treat every claim online with some skepticism. Widely shared leaderboard results put top 10 second runs around 14 to 16 presses per second, and short 1 second bursts have been claimed above 20 using two-hand or drumming techniques. Numbers beyond that usually involve macros, auto-clickers, or key remapping tricks rather than raw finger speed. If you can hold 10 presses per second for a full 10 seconds with one thumb, you are genuinely among the fastest players around.',
+    q: 'What is the world record for the spacebar counter?',
+    a: 'There is no official governing body for spacebar counter records, so treat every claim online with some skepticism. Widely shared leaderboard results put top 10 second runs around 14 to 16 presses per second, and short 1 second bursts have been claimed above 20 using two-hand or drumming techniques. Numbers beyond that usually involve macros, auto-clickers, or key remapping tricks rather than raw finger speed. If you can hold 10 presses per second for a full 10 seconds with one thumb, you are genuinely among the fastest players around.',
   },
   {
     q: 'Does spacebar spamming damage the keyboard?',
@@ -130,20 +130,24 @@ const faqs: Faq[] = [
       A spacebar counter is a spacebar test that counts every press of the biggest key on your keyboard within a fixed
       time window, then reports the result as presses per second. Where a CPS test measures your mouse finger, a space
       bar speed test measures your thumb: a different joint, a different muscle group, and often a surprisingly
-      different score. On this page the run begins the instant you land your first press, ticks down for the duration
-      you selected, and locks in your final speed the moment the clock hits zero.
+      different score. Many players simply call it a spacebar CPS test, since the scoring works exactly the same way,
+      just with key presses in place of clicks. On this page the run begins the instant you land your first press,
+      ticks down for the duration you selected, and locks in your final speed the moment the clock hits zero.
     </p>
     <p>
       The scoring is fully transparent. Your total presses are divided by the elapsed seconds: 72 presses in a 10
       second run equals 7.2 presses per second. Every keydown is timestamped with a high resolution timer, and the
       counter deliberately ignores operating system key auto-repeat, so holding the spacebar down counts as exactly one
       press. If you are on a phone or tablet, the large on-screen bar accepts taps, so a spacebar clicker session works
-      just as well with a thumb on glass as with a thumb on plastic.
+      just as well with a thumb on glass as with a thumb on plastic. The whole spacebar counter game runs free online
+      as a lightweight browser page, no download or account required, which is also why it stays unblocked on most
+      school and work networks.
     </p>
     <p>
       The classic benchmark is the spacebar counter 10 seconds mode: long enough that a lucky burst cannot carry the
-      score, short enough that fatigue does not dominate. The 1 and 5 second sprints isolate burst speed, while 30, 60,
-      and 100 second modes are endurance events where pacing matters as much as raw frequency. Personal bests are
+      score, short enough that fatigue does not dominate. The spacebar counter 5 seconds mode and the 1 second sprint
+      isolate burst speed, while 30, 60, and 100 second modes are endurance events where pacing matters as much as raw
+      frequency. Personal bests are
       stored separately for each duration, so every mode has its own record to chase.
     </p>
 
