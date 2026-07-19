@@ -1,21 +1,26 @@
 name: Mirror Repository
- 
+
 on:
   push:
     branches:
       - main
- 
+
 jobs:
   mirror:
     runs-on: ubuntu-latest
- 
+
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: false
- 
+
       - name: Push to Rishav Repository
         run: |
-          git remote add mirror https://Rishav840:${{ secrets.MIRROR_TOKEN }}@github.com/Rishav840/thereflexhub.git
-          git push mirror main --force
+          git config user.name "mirror-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git rm -r --cached .github -q
+          rm -rf .github
+          git commit -m "Mirror: remove workflow files"
+          git push https://Rishav840:${{ secrets.MIRROR_TOKEN }}@github.com/Rishav840/thereflexhub.git main --force
+
