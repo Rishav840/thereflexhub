@@ -2,7 +2,7 @@
 
 **[thereflexhub.com](https://thereflexhub.com)** — free browser games that measure human performance: reaction time, clicking speed, typing speed, memory, and aim. Instant scores, real published benchmarks, and score history saved privately in the visitor's own browser. No accounts, no backend, no signup.
 
-## Tests
+## Tests 
 
 | Category | Tests |
 |---|---|
